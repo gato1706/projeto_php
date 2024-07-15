@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body {
+    font-family: "Source Serif 4", serif;
+    background-color: #023047;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    height: 100px;
+    font-size: 50px;
+    background-color: #0ca829;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #13ca34;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 40px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+  .formLogin {
+    width: 50%;
+  }
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.areaLogin img {
+  width: 420px;
+}
+
+; .formLogin h1 {
+  padding: 0;
+  margin: 0 auto; /* Define as margens esquerda e direita como 'auto' para centralizar horizontalmente */
+  font-weight: 500;
+  font-size: 2.3em;
+  text-align: center;
+  margin-bottom: 30px; 
+}
+
+.formLogin p {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.formLogin input {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  transition: all linear 160ms;
+  outline: none;
+
+}
+
+.formLogin input:focus {
+  border: 1px solid #25f73a;
+}
+
+.formLogin label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formLogin a {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #555;
+  transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+  color: #023047;
+}
+
+.btn {
+  background-color: #25f73a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none !important;
+  transition: all linear 160ms;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #25f73a;
+}
+.erro{
+  color: white;
+  width: 100%;
+  height: 10%;
+  background-color: red;
+}
+h4{
+  background-color: red;
+}
+h5{
+  background-color: #25f73a;
+}
